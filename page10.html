@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport"
+    content ="width=device-width, initial-scale=1.0">
+
+    <!--Metal description for SEO-->
+    <meta name="desription" content = "Just Click!">
+
+    <!--Open Graph for Social Sharing-->
+    <meta property="og:title" content = "Final Website Assignment">
+    <metal property = "og:description" content= "Just Click!">
+
+    <!--Author and Copyright-->
+    <meta name ="author" content="Caterina Martin">
+    <meta name ="copyright" content ="copyright Caterina Martin, student project, 2025">
+
+    <title> Just Click!</title>
+    <!-- External Stylesheet-->
+    <link rel="stylesheet" href ="default.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body style=" background-color:rgb(132, 129, 126);">
+    <div id="wrapper">
+<header>
+     <!--Navigation-->
+    <nav></nav>
+        
+        <div class="menu1">
+
+            <button class = "close-menu">&times;</button>
+            <a href="index.html">HOME</a><br>
+            <a href="workscited.html">ACKNOWLEDGEMENTS</a>
+
+        </div>
+
+        <!--Hamburger meny button for mobile version-->
+        <div class ="hamburger-menu">
+            <button>
+                <span class = "fa fa-bars"></span>
+            </button>
+        </div>
+    </nav>
+</header>
+
+        <section>   
+
+             <div class="container">
+                <div class = "text"> 
+                  <h1>Just Click!</h1>
+                </div>
+                <div class="image">
+                    <img src="Assets/mouse-removebg-preview.png" width="250px" height="120px">
+                </div>
+                </div>
+                
+                <h2 style="font-style: italic; text-align: center;"><u><br>THE REALITY OF TODAY'S ONLINE WORLD</u></h2>
+                
+                <div>
+                    <p>
+                        <br>Privacy is no longer a social norm.
+                        This is the reality of Surveillance Capitalism. You will be constantly watched and monitored one way or another. Whether it be through the devices in your house, through the camera on your phone, through your digital footprint. Companies saying <a class = "hyperlink">JUST CLICK</a> this button to persuade users to give up their privacy. <a class = "hyperlink">JUST CLICK</a> to use your location. 
+                        <a class = "hyperlink">JUST CLICK</a>. All of it, for the sake of "convienience". 
+                    </p>
+                     <p>
+                        This concept of Surveillance Capitalism is a wolf in sheep's clothing. One could say that it is benefitial to be able to access information faster and easier. However, are you really willing to give up you're own autonomy? Isn't the fact that corporate companies can now have access to our intimate personal information, including our own facial features a little jarring? Or that they know what advertisements target your demographic just because of a single link or object you searched up one day? 
+                        It no longer is a one way relationship of <a class = "hyperlink">JUST CLICK</a> and receive the information you desire. It became <a class = "hyperlink">JUST CLICK</a> and <a class = "hyperlink1">CAPTURE</a>. <a class = "hyperlink">JUST CLICK</a> to let these companies <a class = "hyperlink1">CAPTURE</a>. One should have the power to dictate whether their information is shared or not. Once our data; our home, our car, our face, even our own voice is no longer protected, that is the moment free will is lost. 
+
+                    </p>
+                     <p>
+                       Our data has become a monopoly within our society, orchestrated by the one percent. It has be shown time and time again, that this data being collected is not just for the sake of collection, but to predict our behaviour, influence and change it. Unknowingly, we are giving up some of our critical rights of privacy through a simple <a class = "hyperlink">CLICK</a>. It is a sad and anxious reality but we must not just be seen as numbers or users. If we are treated as data to be herded and coaxed, we no longer become people, just ones and zeroes. 
+                    </p>
+                     <p>
+                        Surveillance Capitalism is something that should be increasingly discussed, or we will be simply swept away in it's path. With how fast technology advances, we can no longer predict what will arise or to what degree our privacy will remain intact. Transparency with users should be the standard, and reinstating the power of choice within this online world should be the highest priority.
+                    </p>
+                    <p>
+                        Stay educated, stay knowledgeable, and be weary of the power you hold with every <a style="color: rgb(255, 161, 161);">CLICK</a>.
+                    </p>
+                     <p style="font-style: italic; text-align: right; color: rgb(255, 161, 161);">
+                        <br><br>Congratulations, you were able to find the truth!<br> I know I was perhaps a little, misleading, but you now have access to the home and acknowledgements buttons, sorry!
+                    </p>
+                        
+                </div>
+
+        </section>
+        <!--Footer-->
+        <footer>
+            <small><em>This website was created as a part of a student. All content and design are copyright by Caterina Martin, 2025.</em></small>
+        </footer>
+    </div>
+    <!--Script for the Hamburger Menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+</body>
+</html>

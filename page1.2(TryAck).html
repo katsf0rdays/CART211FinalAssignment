@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport"
+    content ="width=device-width, initial-scale=1.0">
+
+    <!--Metal description for SEO-->
+    <meta name="desription" content = "Just Click!">
+
+    <!--Open Graph for Social Sharing-->
+    <meta property="og:title" content = "Final Website Assignment">
+    <metal property = "og:description" content= "Just Click!">
+
+    <!--Author and Copyright-->
+    <meta name ="author" content="Caterina Martin">
+    <meta name ="copyright" content ="copyright Caterina Martin, student project, 2025">
+
+    <title> Just Click!</title>
+    <!-- External Stylesheet-->
+    <link rel="stylesheet" href ="default.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body style=" background-color:rgb(247, 229, 212);">
+    <div id="wrapper">
+<header>
+     <!--Navigation-->
+    <nav></nav>
+        <!--Hamburger meny button for mobile version-->
+        <div class ="hamburger-menu">
+            <button>
+                <span class = "fa fa-bars"></span>
+            </button>
+        </div>
+    </nav>
+</header>
+
+        <section>
+   
+                <h1>Just Click!</h1>
+            </div>
+             
+                <div>
+                    <div class = "watching">
+                    <figure>
+                        <p>
+                            Sorry, you can't go there just yet!
+                            <br><br> Please try again later!
+                        </p>
+                        <p class = "hoverTEXT">
+                        <br><br><br><a style="text-decoration: none;" href = "index.html">BACK TO HOME</a>
+                    </p>
+                    </figure>
+                    </div>
+                     
+                       
+                        <div class = "girl" style="text-align: center;">
+                             <br><br><img src ="Assets/girlsleeping-removebg-preview.png">
+                        </div>
+
+                  
+                        
+                </div>
+
+        </section>
+         <!--Footer-->
+        <footer>
+            <p class = "footermessage">
+                What are you doing down here?<br> Go back up, there's nothing to see here. 
+            </p>
+            <small><em>This website was created as a part of a student. All content and design are copyright by Caterina Martin, 2025.</em></small>
+        </footer>
+    </div>
+    <!--Script for the Hamburger Menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+</body>
+</html>

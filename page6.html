@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport"
+    content ="width=device-width, initial-scale=1.0">
+
+    <!--Metal description for SEO-->
+    <meta name="desription" content = "Just Click!">
+
+    <!--Open Graph for Social Sharing-->
+    <meta property="og:title" content = "Final Website Assignment">
+    <metal property = "og:description" content= "Just Click!">
+
+    <!--Author and Copyright-->
+    <meta name ="author" content="Caterina Martin">
+    <meta name ="copyright" content ="copyright Caterina Martin, student project, 2025">
+
+    <title> Just Click!</title>
+    <!-- External Stylesheet-->
+    <link rel="stylesheet" href ="default.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="background6">
+    <div id="wrapper">
+<header>
+     <!--Navigation-->
+    <nav></nav>
+        
+        <div class="menu1">
+
+            <button class = "close-menu">&times;</button>
+            <a href="page7(TryHomePage3).html">HOME</a><br>
+            <a href="page7(TryHomePage3).html">ACKNOWLEDGEMENTS</a>
+
+        </div>
+
+        <!--Hamburger meny button for mobile version-->
+        <div class ="hamburger-menu">
+            <button>
+                <span class = "fa fa-bars"></span>
+            </button>
+        </div>
+    </nav>
+</header>
+
+        <section>
+        
+              <div class="container">
+                <div class = "text"> 
+                  <h1>Just Click!</h1>
+                </div>
+                <div class="image">
+                    <img src="Assets/mouse-removebg-preview.png" width="250px" height="120px">
+                </div>
+                
+            </div>
+             
+                <div>
+                    <h2 class ="subtitle">Fun Fact #3!</h2>
+                    <p>
+                        <i><u>Did you know?</u></i> <br><br> Despite increasing daily smartphone use, only around<b><i> 1 in 10 people </i></b>believe screen time has a positive effect on mental health.
+                        <br><br>By contrast, <b><i> 68.6%</i></b> of those surveyed believe that screen time affects mental health <b><i> negatively </i></b>.
+                    </p>
+                     <p>
+                        <br><i><u>Other fun facts!</u></i>
+
+                        <br><br>The same study asked respondents what things they associate with screen time. The response with the highest proportion of agreement being<b><i> 54.7%</i></b>, was that screen time is associated with eye strain.
+                    </p>
+                   <p class = "hoverTEXT">
+                        <br><br><br>Aren't these fascinating? Alright, on to the next <a style="text-decoration: none;" href = "page8.html">FACT</a>!
+                    </p>
+                        
+                  
+                </div>
+
+        
+
+        </section>
+        <!--Footer-->
+        <footer>
+            <small><em>This website was created as a part of a student. All content and design are copyright by Caterina Martin, 2025.</em></small>
+        </footer>
+    </div>
+    <!--Script for the Hamburger Menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+</body>
+</html>

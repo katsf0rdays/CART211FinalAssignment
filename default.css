@@ -1,0 +1,453 @@
+body 
+{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-variation-settings: "wdth" 100;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.workCited
+{
+    margin-left: auto;
+    font-size: 20px;
+}
+
+#wrapper
+{
+    margin-top: 10px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header h1
+{
+    text-align: right;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+h1
+{
+    font-size: 125px;
+    font-family: "Anton", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    color:rgb(0, 0, 0);
+}
+
+nav
+{
+    margin: top;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    height: 30px;
+    align-items: right;
+    
+}
+
+nav a
+{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.menu1
+{
+    display: flex;
+    background-color: none;
+    justify-content: space-between;
+    align-items: right;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    padding-top: 40px;
+    float: right;
+    column-gap: 50px;
+}
+
+.menu1 a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.container 
+{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    
+}
+
+img 
+{
+    max-width: 200%;
+    max-height: 200%;
+    height: 200px;
+    width: 300px;
+}
+
+
+.girl
+{
+    max-width: 300%;
+    max-height: 300%;
+    height: 2000px;
+  
+}
+
+
+.background1
+{
+    background-image: url('Assets/background1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
+}
+
+.background2
+{
+    background-image: url('Assets/background2.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
+}
+
+.background4
+{
+    background-image: url('Assets/background4.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
+}
+
+.background6
+{
+    background-image: url('Assets/background6.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
+}
+
+.background8
+{
+    background-image: url('Assets/background8.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
+}
+
+.background11
+{
+    background-image: url('Assets/background11.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
+}
+
+
+.menu1 a:hover
+{
+    color: rgb(171, 171, 171);
+}
+
+
+.close-menu
+{
+    display: none;
+}
+
+
+.hyperlink 
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+.hyperlink1
+{
+    color: red;
+    text-decoration: none;
+}
+
+.hoverTEXT
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hoverTEXT a
+{
+    color: white;
+}
+
+.hoverTEXT a:hover
+{
+    color: rgb(171, 171, 171);
+    text-decoration: none;
+}
+
+.subtitle
+{
+  animation: flicker 1.5s infinite alternate; /* Adjust duration, iteration, and direction as needed */
+  font-size: 50px; /* Example styling */
+  color: rgb(44, 72, 255); /* Example styling */
+}
+
+.image
+{
+    animation: flicker 2s infinite alternate; /* Adjust duration, iteration, and direction as needed */
+    font-size: 50px; /* Example styling */
+    color: rgb(255, 255, 255); /* Example styling */
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1; /* Fully visible at the start */
+  }
+  50% {
+    opacity: 0; /* Fully invisible at the midpoint */
+  }
+  100% {
+    opacity: 1; /* Fully visible at the end */
+  }
+}
+
+.tryhometext
+{
+    color: white;
+    text-align: center;
+}
+
+/*.hover-text
+{
+    opacity: 0;
+    position: absolute;
+    bottom: 150px;
+    left: 10px;
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    transition: opacity 0.3s ease;
+}*/
+
+/*nav a:hover 
+{
+    color: rgb(171, 171, 171);
+
+}*/
+
+section
+{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.footermessage
+{
+    font-size: 50px;
+
+}
+
+.tryhome9
+{
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+}
+
+footer
+{
+    margin-top: 20px;
+    min-height: 30px;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: right;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+
+footer a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger-menu
+{
+    display: none;
+    /*Hidden by default, will show on mobile*/
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger-menu button
+{
+    background: none;
+    border: none;
+    font-size: 2em;
+    /*Size of the hamburger menu icon*/
+    color: grey;
+}
+
+.hamburger-menu button .fa-bars
+{
+    cursor: pointer;
+}
+
+
+/* This is for Phone UI */
+
+/*@media (max-width: 1024px)
+{
+
+    .hamburger-menu
+    {
+        display: flex;
+        /*Ensures the hamburger menu is visible and aligned
+        align-items: center;*/
+        /*Center the button vertically in the header
+    }*/
+/*
+    .menu1
+    {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        /*Ensures the menu is above other elements
+    }*/
+
+  /*  .menu1 a
+    {
+        padding: 20px;
+    }
+
+    .menu a
+    .menu a :hover
+    {
+        text-decoration: none;
+        color: grey;
+        background-color: transparent;
+    }
+
+    .close-menu
+    {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 2em;
+        color: gray;
+    }*/
+
+    /*Displays the menu fullscreen on mobile*/
+    /*.menu-deployed
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        /*Take full height of the viewport*/
+       /* position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        z-index: 1000;
+        padding-top: 50px;
+    }*/
+
+   /* button 
+    {
+        border-width: 0px;
+        background-color: white;
+    }
+
+    nav
+    {
+        margin: 0 auto;  
+        margin-bottom: 50px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 0;
+        line-height: 30px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border-bottom: 4px solid #000;
+        background: #000;
+        z-index: 1000;
+        color: white;
+    }
+
+    nav a
+    {
+        color: white;
+    }
+
+
+    h1 
+    {
+        margin-top: 50px;
+    }
+
+    #wrapper 
+    {
+        margin-top: 50px;
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    footer 
+    {
+        margin-top: 40px;
+        font-size: 12px;
+    }
+
+
+}*/
+
+
+
